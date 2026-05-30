@@ -2,46 +2,90 @@
 
 ## Overview
 
-This project is an Arduino-based smart car designed to detect and avoid obstacles autonomously. It uses an ultrasonic sensor mounted on a servo motor to scan the environment and determine a safe path for movement.
+This project is an Arduino-based Smart Obstacle Avoidance Car designed to navigate autonomously by detecting and avoiding obstacles in its path. The system uses an HC-SR04 ultrasonic sensor mounted on an SG90 servo motor to scan the surroundings and determine the safest direction for movement. Based on the measured distances, the Arduino controls the motors through an L298N motor driver to avoid collisions and continue navigation.
 
 ## Features
 
-- Obstacle detection using HC-SR04 ultrasonic sensor
-- Autonomous obstacle avoidance
-- Servo-based environmental scanning
-- Motor control using L298N motor driver
-- Real-time decision making
+* Autonomous obstacle detection and avoidance
+* Real-time distance measurement using ultrasonic sensing
+* Servo-based environmental scanning
+* Motor control using L298N motor driver
+* Automatic path selection based on obstacle distance
+* Embedded decision-making logic for navigation
 
 ## Technologies Used
 
-- Arduino Uno
-- C/C++
-- HC-SR04 Ultrasonic Sensor
-- SG90 Servo Motor
-- L298N Motor Driver
-- DC Motors
+* Arduino Uno
+* C++
+* HC-SR04 Ultrasonic Sensor
+* SG90 Servo Motor
+* L298N Motor Driver
+* DC Motors
 
-## Working
+## Components Used
 
-1. The ultrasonic sensor continuously measures distance.
-2. When an obstacle is detected, the car stops.
-3. The servo rotates the sensor to scan left and right.
-4. The Arduino compares available distances.
-5. The car turns toward the clearer path and continues moving.
+* Arduino Uno
+* HC-SR04 Ultrasonic Sensor
+* SG90 Servo Motor
+* L298N Motor Driver
+* 2 DC Motors
+* Robot Chassis
+* Battery Pack
+* Connecting Wires
+
+## Working Principle
+
+1. The ultrasonic sensor continuously measures the distance to obstacles in front of the vehicle.
+2. When an obstacle is detected within a predefined threshold distance, the car stops.
+3. The servo motor rotates the ultrasonic sensor to scan different directions.
+4. Distance measurements from multiple angles are compared.
+5. The Arduino selects the direction with the greatest clearance.
+6. The car turns toward the safer path and resumes movement.
+
+## Project Images
+
+### Front View
+
+### Side View
+
+### Top View
 
 ## Skills Gained
 
-- Embedded systems programming
-- Sensor integration
-- Motor control
-- Robotics fundamentals
-- Hardware debugging
+* Embedded Systems Programming
+* Arduino Development
+* Sensor Integration and Calibration
+* Motor Control and Driver Interfacing
+* Robotics Fundamentals
+* Hardware Troubleshooting and Testing
+* Real-Time Decision Making
+* Autonomous Navigation Concepts
 
 ## Future Improvements
 
-- Bluetooth/mobile app control
-- Autonomous and manual mode switching
-- Path memory and maze solving
-- Camera-based obstacle detection
+* Bluetooth or Mobile App Control
+* Manual and Autonomous Mode Switching
+* Path Memory and Maze Solving
+* Camera-Based Object Detection
+* IoT-Based Monitoring and Control
+
+## Repository Structure
+
+```text
+smart-obstacle-avoidance-car/
+│
+├── README.md
+│
+├── code/
+│   └── obstacle_avoidance_car.ino
+│
+├── ppt/
+│   └── project_presentation.pptx
+│
+└── images/
+    ├── car-on.jpeg
+    ├── car-side-view.jpeg
+    └── car-top-view.jpeg
+```
 
 
