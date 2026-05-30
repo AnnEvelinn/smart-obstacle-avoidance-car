@@ -46,9 +46,9 @@ This project is an Arduino-based Smart Obstacle Avoidance Car designed to naviga
 
 ### Front View
 
-### Side View
 
 ### Top View
+images/car-top-view.jpeg
 
 ## Skills Gained
 
