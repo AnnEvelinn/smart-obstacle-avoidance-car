@@ -71,10 +71,10 @@ smart-obstacle-avoidance-car/
 ├── README.md
 │
 ├── code/
-│   └── obstacle_avoidance_car.ino
+│   └── code.ino
 │
 ├── ppt/
-│   └── project_presentation.pptx
+│   └── Smart Car With Obstacle Detection.pdf
 │
 └── images/
     ├── car-on.jpeg
