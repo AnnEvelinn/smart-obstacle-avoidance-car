@@ -42,13 +42,7 @@ This project is an Arduino-based Smart Obstacle Avoidance Car designed to naviga
 5. The Arduino selects the direction with the greatest clearance.
 6. The car turns toward the safer path and resumes movement.
 
-## Project Images
 
-### Front View
-
-
-### Top View
-images/car-top-view.jpeg
 
 ## Skills Gained
 
