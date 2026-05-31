@@ -30,8 +30,6 @@ This project is an Arduino-based Smart Obstacle Avoidance Car designed to naviga
 * L298N Motor Driver
 * 2 DC Motors
 * Robot Chassis
-* Battery Pack
-* Connecting Wires
 
 ## Working Principle
 
